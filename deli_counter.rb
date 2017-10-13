@@ -7,8 +7,8 @@ if katz_deli.empty?
     puts "The line is currently empty."
 else
   katz_deli.each_with_index {|name, index| line += " #{index + 1}. #{name}"}
+puts line
   end
-  puts line
 end
 
 def take_a_number(katz_deli, name)
