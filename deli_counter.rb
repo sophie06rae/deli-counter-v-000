@@ -1,4 +1,6 @@
 # Write your code here.
+katz_deli = []
+
 def line (katz_deli)
 line = "The line is currently:"
 if katz_deli.empty?
