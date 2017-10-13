@@ -6,7 +6,7 @@ if katz_deli.empty?
 else
   katz_deli.each_with_index {|name, index| line += " #{index + 1}. #{name}"}
   end
-  puts line
+  return line
 end
 
 def take_a_number(katz_deli, name)
